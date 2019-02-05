@@ -35,7 +35,7 @@ class Item {
 		this.name = name;
 		this.price = price;
 		if (user) {
-			this.userId = user.id;
+			this.setUser(user)
 		}
 
 		// insert in the item to the store
